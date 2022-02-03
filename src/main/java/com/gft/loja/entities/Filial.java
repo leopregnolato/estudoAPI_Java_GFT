@@ -8,7 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "db_filial")
+@Table(name = "tb_filial")
 public class Filial {
 	
 	@Id

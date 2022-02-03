@@ -5,7 +5,7 @@ import com.gft.loja.entities.Filial;
 
 public class FilialMapper {
 	public static Filial fromDTO(RegistroFilialDTO dto) {
-		return new Filial(null, dto.getName(), EnderecoMapper.fromDTO(dto.getEndereco()));
+		return new Filial(null, dto.getNome(), EnderecoMapper.fromDTO(dto.getEndereco()));
 	}
 
 	public static ConsultaFilialDTO fromEntity(Filial filial){
