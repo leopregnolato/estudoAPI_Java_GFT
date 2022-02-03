@@ -1,4 +1,6 @@
-package com.gft.loja.dto;
+package com.gft.loja.dto.filial;
+
+import com.gft.loja.dto.endereco.EnderecoDTO;
 
 public class RegistroFilialDTO {
 	

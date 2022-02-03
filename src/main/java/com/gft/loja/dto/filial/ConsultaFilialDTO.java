@@ -1,10 +1,21 @@
-package com.gft.loja.dto;
+package com.gft.loja.dto.filial;
+
+import com.gft.loja.dto.endereco.EnderecoDTO;
 
 public class ConsultaFilialDTO {
 	private Long id;
 	private String nome;
 	private EnderecoDTO endereco;
 	
+	public ConsultaFilialDTO() {
+		
+	}
+	
+	public ConsultaFilialDTO(Long id, String nome, EnderecoDTO endereco) {
+		this.id = id;
+		this.nome = nome;
+		this.endereco = endereco;
+	}
 	
 	public Long getId() {
 		return id;

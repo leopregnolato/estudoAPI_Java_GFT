@@ -1,4 +1,4 @@
-package com.gft.loja.dto;
+package com.gft.loja.dto.endereco;
 
 public class EnderecoDTO {
 	
@@ -6,6 +6,18 @@ public class EnderecoDTO {
 	private String numero;
 	private String complemento;
 	private String cep;
+
+	public EnderecoDTO() {
+		
+	}
+
+
+	public EnderecoDTO(String logradouro, String numero, String complemento, String cep) {
+		this.logradouro = logradouro;
+		this.numero = numero;
+		this.complemento = complemento;
+		this.cep = cep;
+	}
 
 	public String getLogradouro() {
 		return logradouro;
